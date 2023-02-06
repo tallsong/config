@@ -900,6 +900,7 @@ rules:
  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
  - DOMAIN-SUFFIX,t.me,电报吹水
  - DOMAIN-SUFFIX,tx.me,电报吹水
+ - DOMAIN-SUFFIX,openai.com,自动选择-US
  - DOMAIN-SUFFIX,tdesktop.com,电报吹水
  - DOMAIN-SUFFIX,telegra.ph,电报吹水
  - DOMAIN-SUFFIX,telegram.me,电报吹水
