@@ -885,6 +885,25 @@ proxy-groups:
       - 【C】美国 普通 3 - CC
       - 【C】美国 普通 4 - CC
       - 新网址：sockboom.one
+  - name: 自动选择-spotify
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 500
+    proxies:
+      - 【C】狮城  VIP 6 - 阿里云
+      - 【C】狮城  VIP 7 - DO
+      - 【C】狮城 VIP C - 阿里云
+      - 【C】美国 VIP 1 - Netflix
+      - 【C】美国 VIP 2 - Netflix
+      - 【C】美国 VIP 3 - Netflix
+      - 【C】美国 VIP 4 - CC
+      - 【C】美国 VIP 5 - CC
+      - 【C】美国 VIP 6 - CC
+      - 【C】美国 普通 1 - CC
+      - 【C】美国 普通 2 - CC
+      - 【C】美国 普通 3 - CC
+      - 【C】美国 普通 4 - CC
+      - 新网址：sockboom.one
 
 
 rules:
@@ -901,6 +920,7 @@ rules:
  - DOMAIN-SUFFIX,t.me,电报吹水
  - DOMAIN-SUFFIX,tx.me,电报吹水
  - DOMAIN-SUFFIX,openai.com,自动选择-US
+ - DOMAIN-SUFFIX,accounts.spotify.com,自动选择-spotify
  - DOMAIN-SUFFIX,tdesktop.com,电报吹水
  - DOMAIN-SUFFIX,telegra.ph,电报吹水
  - DOMAIN-SUFFIX,telegram.me,电报吹水
